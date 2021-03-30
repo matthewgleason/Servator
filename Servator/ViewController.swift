@@ -258,7 +258,7 @@ class ViewController: UIViewController, MFMessageComposeViewControllerDelegate, 
         composeVC.messageComposeDelegate = self
         
         // Configure the fields of the interface.
-        composeVC.recipients = ["4803093312"]
+        composeVC.recipients = ["Number Goes Here"]
         // WORKS
         let picArr = ["victim_front.png", "victim_side.png", "offender_front.png", "offender_side.png"]
         let nameArr = ["Victim Front", "Victim Side", "Offender Front", "Offender Side"]
